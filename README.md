@@ -1,38 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zearch
 
-## Getting Started
+![ZearchLogo](https://github.com/syarwinaaa09/Zearch/assets/114587158/53f48bc5-a987-41c6-bcd7-7cabe12a6029)
 
-First, run the development server:
+Zearch is a project aimed at building Google 2.0 using the powerful combination of Tailwind CSS and Next.js. It incorporates responsive design, server-side rendering (SSR) with React, and pagination. By leveraging the latest features of Tailwind CSS, including the Just-in-Time (JIT) compiler, Zearch offers a modern and efficient user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### Project Features
+* **Responsive Design:** Zearch is designed to provide a seamless experience across various devices and screen sizes. The user interface adapts dynamically to ensure optimal usability on desktops, tablets, and mobile devices.
+* **Server-side Rendering (SSR) with React:** By utilizing Next.js, Zearch benefits from server-side rendering, which improves performance and enables search results to be pre-rendered on the server before being sent to the client. This ensures faster page loading and improved search engine optimization (SEO).
+* **Pagination:** Zearch incorporates pagination to enhance usability and make it easier for users to navigate through search results. With the ability to display a limited number of results per page, users can quickly find the information they need.
+
+### Technologies Used
+* **Tailwind CSS:** Zearch utilizes Tailwind CSS, a highly customizable utility-first CSS framework. With its intuitive class-based approach, Tailwind CSS enables rapid development and easy customization of styles.
+* **Next.js:** Next.js is a popular React framework that enhances React applications with features like server-side rendering, static site generation, and routing. It provides an efficient development experience while ensuring fast performance and optimal SEO.
+
+### Getting Started
+To get started with Zearch, follow these steps:
+1. Clone the repository:
 ```
+git clone https://github.com/syarwinaaa09/Zearch.git
+```
+2. Navigate the project directory:
+```
+cd Zearch
+```
+3. Install the dependencies
+```
+npm install
+```
+4. Start the development server:
+```
+npm run dev
+```
+5. Open your browser and visit `http://localhost:3000` to see Zearch in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Contributing
+Contributions to Zearch are welcome! If you want to contribute to the project, please follow these guidelines:
+1. Fork the repository on GitHub.
+2. Clone your forked repository locally:
+```
+git clone https://github.com/syarwinaaa09/Zearch.git
+```
+3. Create a new branch for your feature or bug fix:
+```
+git checkout -b feature-name
+```
+4. Make the necessary changes and commit them:
+```
+git commit -m "Add feature or fix"
+```
+5. Push your changes to the forked repository:
+```
+git push origin feature-name
+```
+6. Open a pull request on the main repository, explaining your changes and their purpose.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### License
+Zearch is open-source software released under the MIT License. Feel free to use, modify and distribute it as per the terms of the license.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Credits
+Syarwina Ridwan
